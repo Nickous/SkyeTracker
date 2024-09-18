@@ -11,13 +11,13 @@
 #define  ElevationMin 0
 #define  ElevationMax 90
 // Location
-#define  LocationLatitude 45.936527
-#define  LocationLongitude -75.091259
+#define  LocationLatitude 48.775264739990234 #orig. 45.936527
+#define  LocationLongitude 6.360976696014404 #orig. -75.091259
 // Actuators
-#define  ActuatorHorizontalLength 12
-#define  ActuatorVerticalLength 8
-#define  ActuatorHorizontalSpeed 31
-#define  ActuatorVerticalSpeed 31
+#define  ActuatorHorizontalLength 10 #250mm #orig. 12
+#define  ActuatorVerticalLength 8 #200mm
+#define  ActuatorHorizontalSpeed 20 #5mm/s #orig. 31
+#define  ActuatorVerticalSpeed 20 #5mm/s #orig. 31
 
 extern BluetoothSerial ESP_BT;
 
